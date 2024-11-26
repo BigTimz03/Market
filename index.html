@@ -16,7 +16,11 @@
                 <img src= "asset/parrot.jpg" alt="" class="dropbtn">
                    <div class="dropdown-content">
                     <a href="">Settings</a>
-                    <a href="">Language</a>
+                    <select id="language-dropdown" style="background-color: aqua;">
+                        <option value="en">English</option>
+                        <option value="fr">French</option>
+                        <option value="es">Spanish</option>
+                    </select>
                     <a href="">Currency</a>
                    </div>
                 </div>
@@ -25,7 +29,13 @@
                     <a href="">
                     <img src="asset/web.svg" alt="" class="dropbtn">
                     <p>Network</p></a>
-                    <h3><a href="">Connect</a></h3>
+                    <h3><button id="connect-wallet" style=" text-decoration: none;
+                        box-shadow: 1px 1px 1px 1px;
+                        color: #032B44;
+                        padding: 5px;
+                        border-radius: 10px;
+                        display: flex;
+                        width: auto;;">Connect</button></h3>
             </div>  
             </div>
         </header>    
@@ -91,5 +101,6 @@ Overall, Bitcoin is a pioneering cryptocurrency that has opened up new possibili
      
         
     </div><!-- div ending of main div -->
+    <script src="scripts/app.js"></script>
 </body>
 </html>
