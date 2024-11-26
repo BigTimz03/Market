@@ -8,7 +8,7 @@ body {
     background: url('../asset/background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    background-position: fixed;
 }
 
 .main {
